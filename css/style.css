@@ -1,0 +1,49 @@
+/* Empty. Add your own CSS if you like */
+
+/*border lines for shopping cart*/
+.col {
+    border: solid 2px;
+    border-bottom-style: none;
+    border-right-style: none;
+    text-align:center;
+}
+
+.col:last-child {
+    border-right: solid 2px;
+}
+
+#last {
+	border-bottom: solid 2px;
+}
+
+
+/*background color for top row in shopping cart*/
+.header .col {
+    background-color:lightgrey;
+}
+
+/*Set text center for nav bar*/
+.total {
+	text-align: center;
+}
+
+/* push buttons to right on each item list row*/
+button {
+	float: right;
+}
+
+/*Set images small size on 1st prices tab*/
+img.prices {
+	width: 15%;
+	height: 15%;
+}
+
+/*Set images med size on 2nd shopping cart tab*/
+img.cart {
+	width: 40%;
+	height: 40%;
+}
+
+.item-content {
+	padding-right: 16px !important;
+}
